@@ -1,0 +1,1 @@
+docker run -it -d -p 1880:1880 --name mynodered --link myrabbitmq:broker nodered/node-red-docker

@@ -1,0 +1,1 @@
+docker run -d --hostname myrabbitmq --name myrabbitmq -e RABBITMQ_DEFAULT_USER=guest -e RABBITMQ_DEFAULT_PASS=guest -p 5672:5672 rabbitmq
